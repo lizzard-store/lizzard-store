@@ -24,13 +24,13 @@ h1 {
 h2 {
     font-size: 50px;
     font-weight: 400;
-    color: #357132;
+    color: #232323;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #000000;
+    color: #1d1d1df1;
     font-size: 33px;
     font-weight: 500;
 }
@@ -127,17 +127,20 @@ p.lead {
     background-color: #FFF;
 }
 
+
 .section {
     padding: 80px 0;
 }
 
+
 .section-title {
     text-align: center;
     margin-bottom: 3rem;
+    
 }
 
 .section-title small {
-    color: #998a9b;
+    color: #103c10;
 }
 
 @media (max-width:767px) {
@@ -161,14 +164,14 @@ p.lead {
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background-color: rgb(39, 118, 16);
-    background: -moz-linear-gradient(135deg, rgb(38, 108, 24) 0%, rgb(48, 180, 23) 100%);
+    background: -moz-linear-gradient(135deg, #266c18 0%, rgb(48, 180, 23) 100%);
     background: -webkit-linear-gradient(135deg, rgb(84, 163, 57) 0%, rgb(48, 180, 23) 100%);
     background: linear-gradient(135deg, rgb(34, 112, 59) 0%, rgb(37, 187, 68) 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
 }
-
+ 
 .nav-menu.is-scrolling {
     padding: 0;
 }
@@ -185,7 +188,8 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #cd99d4;
+        border-bottom: 2px solid#357132;
+        ;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -322,7 +326,7 @@ header {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #f5378e;
+    color: #3eb43a;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -340,10 +344,10 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+    background-image: -moz-linear-gradient( 122deg, #356631 0%, #356631 100%);
+    background-image: -webkit-linear-gradient( 122deg, #356631 0%, #356631 100%);
+    background-image: -ms-linear-gradient( 122deg, #356631 0%, #356631 100%);
+    background-image: linear-gradient( 122deg, #356631 0%, #356631 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -401,17 +405,17 @@ header {
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
     padding: 1rem 1rem;
-    border-color: #faf6fb #faf6fb #FFF;
+    border-color: #f6fbf6 #faf6fb #FFF;
     font-size: 19px;
-    color: #b5a4c8;
-    background: #f5eff7;
+    color: #386731;
+    background: #00ff003d;
 }
 
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
-    color: #633991;
+    border-color: #42a139 #faf6fb #FFF;
+    color: #42a139;
 }
 
 
@@ -461,7 +465,7 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    background: #e7d9eb;
+    background: #bde4b6;
     width: 35px;
     height: 8px;
     border-radius: 10px;
@@ -469,11 +473,11 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #ff487e;
+    background: #2f860d;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #ff487e;
+    background: #2f860d;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 

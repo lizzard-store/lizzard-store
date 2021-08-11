@@ -110,3 +110,7 @@ $(function() {
     }
 
 }); /* End Fn */
+
+document.getElementById('circle-icon mr-4').style.display = 'none'; // hide it
+document.getElementById('circle-icon mr-4').style.display = 'block'; // show it (for block element, eg: div)
+document.getElementById('circle-icon mr-4').style.display = 'inline'; // show it (for inline element, eg: span)
